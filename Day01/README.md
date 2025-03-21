@@ -1,4 +1,4 @@
-# Day 1 Project: Band Name Generator
+# Day 1 Project Band Name Generator
 ## The Overview
 ### The Challenge
 Create a program that generates a band name from user inputs.
