@@ -32,3 +32,6 @@ Stay tuned for updates and feel free to explore my code! 🚀
 
 **Day 4 Project: [Rock Paper Scissor](https://github.com/InaJaweed/100-Days-Python/tree/main/Day04)**
 - Topics: Python Lists, Index Error, Random Module
+
+**Day 5 Project: [Password Generator](https://github.com/InaJaweed/100-Days-Python/tree/main/Day05)**
+- Topics: For Loops, Range() Function
