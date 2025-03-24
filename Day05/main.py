@@ -30,25 +30,25 @@ finalSymbols = []
 
 # Generate random lowercase letters using a for loop
 for lowLet in range(1, nrLowLetters + 1):
-    # Choose a random index within the length of the lowLetters list
-    randomLowLetter = random.randint(0, len(lowLetters) - 1)
+    # Select a random lowercase letter from the lowLetters list
+    randomLowLetter = random.choice(lowLetters)
     # Append the randomly selected letter to the finalLowLetters list
-    finalLowLetters += lowLetters[randomLowLetter]
+    finalLowLetters += randomLowLetter
 
 # Generate random uppercase letters
 for uppLet in range(1, nrUppLetters + 1):
-    randomUppLetter = random.randint(0, len(uppLetters) - 1)
-    finalUppLetters += uppLetters[randomUppLetter]
+    randomUppLetter = random.choice(uppLetters)
+    finalUppLetters += randomUppLetter
 
 # Generate random numbers
 for num in range(1, nrNumbers + 1):
-    randomNumber = random.randint(0, len(number) - 1)
-    finalNumber += number[randomNumber]
+    randomNumber = random.choice(number)
+    finalNumber += randomNumber
 
 # Generate random symbols
 for symb in range(1, nrSymbols + 1):
-    randomSymbol = random.randint(0, len(symbols) - 1)
-    finalSymbols += symbols[randomSymbol]
+    randomSymbol = random.choice(symbols)
+    finalSymbols += randomSymbol
 
 # Combine all the randomly chosen characters into one list
 password = finalLowLetters + finalUppLetters + finalNumber + finalSymbols
